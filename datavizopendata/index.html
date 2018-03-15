@@ -1,9 +1,470 @@
+<!DOCTYPE html>
 <html>
-<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<header class="bg-primary text-white">
 <title>Open Data & Data Visualization</title>
-  <div align="center"><h2>Open Data & Data visualization</h2></div>
-<!-- https://raw.githubusercontent.com/mnemonico/mnemonico.github.io/master/datavizopendata/img/open_data.JPG -->
-<div align="center"><img src="https://raw.githubusercontent.com/mnemonico/mnemonico.github.io/master/datavizopendata/img/open_data.JPG"></div>  
-<p>Les Open Data, ou données ouvertes, sont des données auxquelles l’accès est totalement public et libre de droit, au même titre que l’exploitation et la réutilisation. Ces données offrent de nombreuses opportunités pour étendre le savoir humain et créer de nouveaux produits et services de qualité. Découvrez une définition complète et des exemples concrets d’utilisation des Open Data.</p>
-</head>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+      <div class="container text-center" id="page-top">
+        <h1>Synthèse du sujet de veille technologique</h1>
+        <p style="font-size:36px;" class="lead">L'Open Data & Data Visualization</p>
+      </div>
+    </header>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Open Data & Data Visualization</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#sommaire">Sommaire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Github and Other</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="sommaire">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1>Sommaire</h1>
+            <ol>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#outils"><i>Outils utilisés pour la veille</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#introduction"><i>Introduction</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#datavopendata"><i>Data vers Open Data</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#initiative"><i>Initiative Open Data</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#legal"><i>Cadre Légale Juridique Open Data</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#strategie"><i>Stratégie Open Data</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#enjeux"><i>Enjeux Open Data</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#dataviz"><i>Exploitation du Open Data à travers Data Visualisation</i></a>
+            </li>
+            <li>
+            <a class="nav-link js-scroll-trigger" href="#exemples"><i>Exemples de Projets Data Vizualisation avec Open Data</i></a>
+            </li>
+             <li>
+            <a class="nav-link js-scroll-trigger" href="#contact"><i>Git - Support</i></a>
+            </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="outils" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 align="center">Outils de veille utilisés pour la collecte d'informations</h2>
+            </br>
+				<div class="row">
+				    <div class="col-4">
+						<div align="center"><img src="./img/tweetdeck.png" class="rounded"  width="150px" height="150px" title="Tweetdeck"></div>
+				    </div>
+				    <div class="col-4">
+				      <div align="center"><img src="./img/scoopit.png"  class="rounded" width="200px" height="150px" title="Scoop.it"></div>
+				    </div>
+				    <div class="col-4">
+				   		<div align="center"><img src="./img/youtube.png"  class="rounded"     width="200px" height="150px" title="Youtube"></div>
+				    </div>
+		  		</div>
+		  		<div class="row">
+				    <div class="col-4">
+						<p align="center"><a href="https://tweetdeck.twitter.com/#" target="_blank">TweetDeck</a></p>
+				    </div>
+				    <div class="col-4">
+				       <p align="center"><a href="https://www.scoop.it/u/med-achraf-baiz" target="_blank">My Scoop.it </a></p>
+				    </div>
+				    <div class="col-4">
+				   		<p align="center"><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+				    </div>
+		  		</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Introduction-->
+    <section id="introduction">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Introduction</h2>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/open_data.JPG" class="rounded"  width="300px" height="200px" title="Open Data"></div>
+				    </div>
+		    </div>
+            <p class="lead">Les Open Data, ou données ouvertes, sont des données auxquelles l’accès est totalement public et libre de droit, au même titre que l’exploitation et la réutilisation. Ces données offrent de nombreuses opportunités pour étendre le savoir humain et créer de nouveaux produits et services de qualité. Découvrez une définition complète et des exemples concrets d’utilisation des Open Data à travers des projets de Data Visualisation dans la suite de ma synthèse.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Data vers OpenData-->
+    <section id="datavopendata" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Data vers Open Data</h2>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/5.jpg" class="rounded"  width="500px" height="300px" title="Open Data"></div>
+				    </div>
+		    </div>
+		    </br>
+            <p class="lead">La transistion Data vers Open Data est l'un des phénomènes qui evidemment on voyait venir avec le temps, mais l'Open Data à pris naissance à travers la collaboration de different facteurs; politique notamment, econmique,technologique et social.</p>
+            <p class="lead">Alors pourquoi cette transition ?. </p>
+            <p class="lead">On vit dans un siècle ou la quantité de données généré n’a jamais été de façon pareil dans toute l’histoire de l’humanité.</p>
+
+			<p class="lead">La data est partout et elle a de la valeur pour tout le monde, la data peut raconter des faits arrivés dans le passé et nous aide à mieux prendre des décisions pour le futur.</p>
+
+			<p class="lead">La majorité des autorités, grande compagnies sont dans le cœur de cette vague et tout leurs services est basé sur la data et du coup ils procèdent tous à un approche <i><u>Data Driven</u></i> pour mieux comprendre, innover et améliorer leurs services et processus métiers.</p>
+
+			<div class="col-12">
+						<div align="center"><img src="./img/1.jpg" class="rounded"  width="500px" height="300px" title="Data Driver Approach"></div>
+			</div>
+			<div class="col-12"><div align="center">Data Driver Approach</div></div>
+			</br>
+
+			<p class="lead">Donc pour que de nouvelles entreprise et notamment les startups puissent voir le jour, ils doivent avoir accès à la Data, car c’est la matière première sur la quelle elles reposent.</p>
+
+			<p class="lead">Faut savoir que les institutions gouvernementale et les grandes compagnies sont les acteurs qui ont accès à la grande partie du gâteaux en matière de collecte des données, ils recèlent un patrimoine de données diversifier de Data et donc pour  développer et évoluer le positionnement national et international ils ont pris l’initiative de démocratiser cette Data ce qui a pris le nom de <b><u>l'initiative Open Data</u></b>.</p>
+			<p class="lead">Alors c'est quoi l'initiative Open Data ?.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Initiative Open Data-->
+     <section id="initiative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Initiative Open Data</h2>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/0.png" class="rounded"  width="700px" height="500px" title="Initiative Open Data"></div>
+				    </div>
+		    </div>
+		    </br>
+            <p class="lead">Faut savoir que l’initiative Open Data à été d’abord abordé par les gouvernements.</p>
+
+			<p class="lead">Ces derniers ont élaboré et déterminé trois axes qui doivent être respectés afin de vraiment ouvrir les données. Ces axes sont la <b>transparence</b>, la <b>collaboration</b> et  la <b>Participation</b>.</p>
+			<ul>
+			<li>La transparence : </li>
+			<p class="lead">La transparence peut être expliqué en deux points:</p>
+			<p class="lead">La fiabilité et la veracitié des données à ouvrir permet non seulement de les rendre crédible mais cela encapsule de l'information dedans, et si il y a de l'information dans les données cela lui donne de la valeur ajoutée. Une donnée sans information est une donnée sans valeur.</p>
+			<p class="lead">Le partage des données au large publique afin de les utilisées et y accédés de façon gratuite et illimité et l'une des base de l'initiative open data.</p>
+
+			<li>La collaboration</li>
+			<p class="lead">La collaboration consiste à recenser les différents acteurs (politiques, administrations, organismes ou entreprises) et de les contacter, pour déterminer quel patrimoine de données ils recèlent, afin de voir avec eux lesquelles il pourrait être intéressant de libérer. Ensuite, on définira ensemble des priorités et des modalités de mise à disposition de ces données.</p>
+			</li>
+			<li>La participation</li>
+			<p class="lead">La participation consite à sensibiliser deux acteurs en relation avec l'ouvertur des données, le premier c'est le citoyen; lui expliqué le but de l'initiative open data, les opportunités derière et le rôle de la réutilisation de ces données ouvertes dans le developpement dans un cadre légal. Le deuxième c'est l'acteur qui mets à disposition les données ouverts qui doit d'être bien conscient des mentions légals et licences adpatés sous lequels ils ouvrent ses données mais aussi si lui même en utilise des données ouvertes issu d'autres acteurs.</p>
+			<p class="lead">La mission du collectif n'est pas de réaliser des applications pérennes utilisant les données libérées, mais il peut montrer les possibilités offertes via des démonstrateurs.</p>
+
+			<li>But de l'initiative Open Data</li>
+
+			</ul>
+
+			</br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/8.png" class="rounded"  width="400px" height="300px" title="Open Data best practices"></div>
+				    </div>
+		    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	 <!--Cadre Légale Juridique Open Data-->
+    <section id="legal" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Cadre Légale Juridique Open Data</h2>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/7.png" class="rounded"  width="350px" height="200px" title="Open Data best practices"></div>
+				    </div>
+		    </div>
+		    </br>
+		    <p class="lead">Un cadre juridique définit les informations qui peuvent être rendues publiques et celles qui ne le peuvent pas (les données doivent être non-nominatives, ne pas relever de la vie privée ni de la sécurité).</p>
+
+			<p class="lead">L’accès aux données publiques est un droit accordé aux citoyens, associations, entreprises qui peuvent en faire leur propre usage, y compris commercial.</p>
+
+            <p class="lead">A titre de rappel Pour la France le premier projet open data avec licence ouverte c’est <a href="https://www.etalab.gouv.fr/fr/
+
+" target="_blank"> Etalab </a> qui a donnée naissance à <a href="https://www.data.gouv.fr/fr/" target="_blank"> data.gouv.fr</a>, ce dernier répond à mention légals et licence suivant </p>
+			<p class="lead">Quelques lois impotantes concernant l'Open Data et l'obligation d'ouvrire les données.</p>
+			<ul>
+		    <li>Le 17 juillet 1978, la loi "CADA" (Commission d’accès aux documents administratifs) impose la tenue d’un répertoire des données publiques, porté à la connaissance des usagers.
+		    </li>
+		    <li>Le 17 novembre 2003, une directive européenne donne un cadre général fixant les conditions de réutilisation des données publiques dans les pays de l’union.
+		    </li>
+		    <li>Le décret du 30 décembre 2005, en application de l’ordonnance du 6 juin 2005 qui transpose la directive européenne de 2003 en droit français et révise la loi du 17 juillet 1978, précise les modalités d’application de l’accès aux documents administratifs et de la réutilisation des informations publiques. Les données publiques, financées par l’impôt, doivent pouvoir être réutilisées par d’autres acteurs, au profit de la qualité des services sur le territoire, de la croissance économique, de la connaissance et du débat démocratique, le décret introduit la possibilité de réutiliser les données publiques à des fins commerciales. La loi crée un droit opposable, c’est-à-dire qu’une administration ne peut refuser de transmettre une donnée ni de la voir réutilisée, à condition qu’elle puisse être rendue publique. En cas de refus, le demandeur peut saisir la CADA.
+		    </li>
+			</ul>
+			 </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/2.png" class="rounded"  width="500px" height="380px" title="Open Data best practices"></div>
+				    </div>
+		    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!--Strategie-->
+    <section id="strategie">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Stratégie de l'Open Data</h2>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/6.JPG" class="rounded"  width="520px" height="400px" title="Strategie Open Data"></div>
+				    </div>
+		    </div>
+		    </br>
+            <p class="lead">Etant le gouvernement le premier à aborder l'initiative Open Data, alors l'Open Gouvernement à mis en place des stratégies pour améliorer l'Open Data, notamment le travaille sur l’association des différents acteurs qui veulent collaborer pour l’ouverture de données afin booster la quantité et la qualité des données ouvertes en mettant en place des plateformes et application dédier à cela.</p>
+			<p class="lead">Le but de la stratégie inclue l’évolution de l’industrie, la recherche, collectivité public et environnement, et administration publique ainsi que d’autre secteur tel que la santé l’éducation …etc.</p>
+			<p class="lead">Integré la culture Open Data dans tout les services donnant naissance la Smart Knowledge, Smart Data (menant aux concepts smartcities) <p>
+			<p class="lead">La transparence représente aussi un des points essentiels sur lequels l'Open Gouvernement se focalise;
+			ce dernier étant un point important dans le cadre légal étant la vitesse avec la quelle les données et l'anvancement technologique se developpent.</p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!--Enjeux-->
+    <section id="enjeux" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Enjeux auxquels l'Open Data fait face</h2>
+		    </br>
+            <p class="lead">
+            	L’Open Data a pour principe de fournir des données brutes pour en faciliter la réutilisation.
+            </p>
+            <p class="lead">Les données sont issu de differentes sources et donc soumis à une réglementation(licence adapté) et un traitement numerique à afin que le large publique puisse y acceder de facon comprehensible.</p>
+			<p class="lead">On peut citer trois grands enjeux auxquels l'Open data fait face : Juridique – Publique – Informatique </p>
+			<ul>
+			<li>Juridique</li>
+					<div class="col-12">
+						<div align="center"><img src="./img/openlicence.png" class="rounded"  width="280px" height="150px" title="Open Data Sources"></div>
+				    </div>
+				    <p class="lead">En France par exemple c'est Etalab qui a mis en place une licence ouverte.</p>
+				    <ul>
+				    <li>Promeut la réutilisation la plus large en autorisant la reproduction, 
+					la  redistribution,  l’adaptation  et  l’exploitation  commerciale  des 
+					données </li>
+					<li>S’inscrit dans un contexte international en étant compatible avec 
+					les  standards  des  licences  Open  Data  développées  à  l’étranger  et 
+					notamment  celles  du  gouvernement  britannique  (Open Government
+					Licence) ainsi que les autres standards internationaux (ODC-BY, CCBY 2.0)</li>
+					<li>Rend obligatoire la mention de la paternité</li>
+					<li>Standard réutilisable  par  les  collectivités  territoriales  qui 
+					souhaiteraient se lancer dans l’ouverture des données publiques
+						<ul>
+							<li>Licences OpenData</li>
+							<li>Licences spécifiques</li>
+						</ul>
+					</li>
+
+					</ul>
+			<li>Publique</li>
+			<p class="lead">La position du citoyen par rapport à l'Open Data, c'est la question qui répend à cette enjeu car l'utilisateur final doit être bien conscient de tout mise à jour au niveau juridique, informatique ainsi il pourra decortiquer l'image générale et dynamique du développement de l'open data qui dans un temps ou la Data est dans une croissance exponentielle</p>
+			<div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/venn.png" class="rounded"  width="340px" height="340px" title="Open Data Sources"></div>
+				    </div>
+		    </div>
+			<li>Informatique</li>
+			<div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/9.png" class="rounded"  width="340px" height="340px" title="Open Data Sources"></div>
+				    </div>
+		    </div>
+			<p class="lead">L'utilisateur des données ouvertes doit pouvoir accéder à ces derniers de façon facile et simple. C'est le but du cadre informatique au niveau du traitement et mise à disposition de l'Open Data.</p>
+			<p class="lead">Les données sont brutes, volumineuses et de différents type ce qui pose un défie à l'initative Open Data et on peut cité quelques problème de base :</p> 
+			<ul>
+			<li>Notamment standardiser le canal de partage(Internet)</li>
+			<li>Déterminer le type des ressources intérmediaire(api reste, ou autres type de service web)</li>
+			<li>Format de données numérique ouvert(issu de projets OpenSource)</li>
+			</ul>
+			</br>
+			</ul>
+          </div>
+        </div>
+      </div>
+    </section>   
+
+    <!--Exploitation du open data via data vizs-->
+    <section id="dataviz" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Exploitation du Open Data à travers Data Visualisation</h2>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/into-dataviz.JPG" class="rounded" width="600px" height="350px" title="Data Visualization"></div>
+				    </div>
+		    </div>
+		    </br>  
+            <p class="lead">Data visualization ou visualisation des données en français est un terme général qui décrit tout effort visant à aider les gens à comprendre l'importance des données en les plaçant dans un contexte visuel. Les modèles, les tendances et les corrélations qui pourraient ne pas être détectés dans les données peuvent être exposés et reconnus plus facilement avec un outil de visualisation de données.</p>
+            <p class="lead">Pourquoi la Data Visualization alors ?</p>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/visualizing-dat.png" class="rounded" width="600px" height="350px" title="Visualization"></div>
+				    </div>
+		    </div>
+            <p class="lead">Dans l'éra ou la Data est partout et en quantité, nouvaux metiers basés sur cette matière ont réussi à voir le jour, mais la data c'est déja une information aquise or des fois c'est une information complexe à assimiler et comprendre c'est là ou des métiers tels que le Data Teller, Data Analyste , Data buisness Analyste interviennent pour donner vie aux données à travers des technologies infographique visant à traduir les données en autres à des visuelles informatifs et interactif simplifiant et amplifiant de les assimiler voir même de détecter des patterns.</p>
+             <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/11.jpg" class="rounded" width="850px" height="850px" title="Infographic elements for Data Visualization"></div>
+				    </div>
+		    </div>
+		    </br>
+            <p class="lead">De grandes companies ont financé des recherches dans le domaine du traitemnt de l'information et les résultat étaint impressionnants car il ont trouvé que la durée pendant laquelle les humains peuvent faire attention à une feuille contenant beaucoup de chiffre/text n'est que d'environ 8 secondes, ce qui rend difficile la lecture et la compréhension des données. 
+			Et Donc , Des entreprises et startup spécialisé dans le traitement de données ont trouvé des moyens intéressants pour résumer une grande quantité de données, ce qui les rend plutôt intéressant à comprendre. 
+			Les dernières et nouvelles façons de visualiser les données sont des infographies, des graphiques et des cartes interactives. Grâce à ces méthodes interactives, le cerveau humain, malgré la réduction de l'attention, est capable de comprendre efficacement le message.</p>
+			<p class="lead">Il existe tout une panoplie d'outils pour la visualisation interactive de données qu'ils soient complexe ou ordinaire. <u><a href="https://libguides.tru.ca/opendata/visualization">voici un lien vers tout les outils open source pour la DataViz</a></u></p>
+			<p class="lead">Mention honorable à :</p>
+			<div class="row">
+				    <div class="col-6">
+						<div align="center"><img src="./img/Qlik.png" class="rounded"  width="150px" height="150px" title="QlikView"></div>
+				    </div>
+				    <div class="col-6">
+				      <div align="center"><img src="./img/Tableau.jpg"  class="rounded" width="280px" height="150px" title="Tableau software"></div>
+				    </div>
+				    
+		  		</div>
+		  		<div class="row">
+				    <div class="col-6">
+						<p align="center">QlikView</p>
+				    </div>
+				    <div class="col-6">
+				       <p align="center">Tableau Public Software</p>
+				    </div>
+				   
+		  		</div>
+  			<div class="row">
+  				<div class="col-12">
+		   			<div align="center"><img src="./img/d3.jpg"  class="rounded"     width="400px" height="200px" title="D3js"></div>
+		        </div>
+		      </div>
+		    <div class="row">
+			     <div class="col-12">
+			   		<p align="center">D3js</p>
+			    </div>
+			 <p class="lead"> La majorité des logiciels existant pour la visualisation sont orienté BI mais ils sont tous puissant</p>
+			 <p class="lead">QliqView et Tableau sont des logiciels dont la version Trial(Beta) offre une panoplie de fonctionnalités pour la mise en place de visuelles interactifs mais aussi se veuillent être intuitifs et facile à manier </p>
+			 <p class="lead">D3js est une librairie écrite en JavaScript et qui est orienté Data Driven Document autrement dit elle offre une très grande maniabilité aux developpeurs et contient des fonctionnalités exhaustives leur permettant de créer des graphes adaptés à leurs données.</p>
+			 <p class="lead">Cette Librairie a été utilisé lors de notre passage dans le module <b>MOS5.5</b> pour le développement de projets dont les données sont issues de differentes acteurs(plateforme open data)</p>
+		   </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Exemples-->
+    <section id="exemples" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Exemples de projets</h2>
+            
+            <p class="lead">Les projets suivant sont le fruit de développement d'étudiants de l'Ecole Centrale de Lyon lors de leurs passage par le module Data Visualization (MOS5.5).</p>
+            <ul>
+            <li><b>Bithween</b> est un projet développé par <b><a href="https://github.com/mnemonico"> moi même<a></b> et mon équipe. Les données sont de type financière issues de la plateforme <a href="https://www.investing.com/"> inveting.com</a> qui offre l'accès à ses données financière recensées de differents acteurs économique<br>
+            Lien du site : <a href="https://oussamahourira.github.io/" target="_blank">Bithween</a>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/bithween.png" class="rounded"  width="800px" height="350px" title="Open Data"></div>
+				    </div>
+		    </div>
+            </li>
+            </br>
+            <li><b>Sncf comparaison de stations</b> est un projet développé par <b><a href="https://github.com/ThibaultLecailtel/thibaultlecailtel.github.io"> Le groupe de Thibault Lecailtel sont mon équipe.<a></b>  Les données sont issues de la plateforme Open Data de SNCF qui offre l'accès à ses données de gare et voyageurs recensées au fil des années<br>
+            Lien du site : <a href="https://thibaultlecailtel.github.io/SNCF_viz-French_map/" target="_blank">Sncf comparaison de stations</a>
+            </br>
+            <div class="row">
+				    <div class="col-12">
+						<div align="center"><img src="./img/Sncf.png" class="rounded"  width="800px" height="350px" title="Open Data"></div>
+				    </div>
+		    </div>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Github & Support</h2>
+            <br>
+			<script async defer src="https://buttons.github.io/buttons.js"></script>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p class="lead">You can find my projects here <a href="https://github.com/mnemonico/BithWeen"><i>mnemonico Bithween repo </i></a>
+            </p>
+            <p class="lead">You can find presentation support here <a href="https://drive.google.com/file/d/1Y5iq8fWEv6CPV2KOmL_P5qBFfn0K0ADv/view?usp=sharing">Open Data & Data Visualization</a></p>
+            <p class="lead"><a href="https://twitter.com/achrafbaiz?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @achrafbaiz</a> <a class="github-button" href="https://github.com/mnemonico" aria-label="Follow @mnemonico on GitHub">Follow @mnemonico</a>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+			<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/med-achraf-ba%25C3%25AEz-7255b388" data-format="hover" data-related="false" data-text="Med Achraf Baîz"></script>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Mohamed Achraf Baiz 2018 - Ecole Centrale de Lyon</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+ 
+
+	  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+</body>
 </html>
